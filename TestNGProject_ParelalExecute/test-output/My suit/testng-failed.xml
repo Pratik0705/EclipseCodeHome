@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My suit]" parallel="classes">
+  <test name="My name(failed)" parallel="classes">
+    <classes>
+      <class name="p1.Test2">
+        <methods>
+          <include name="parallel2"/>
+        </methods>
+      </class> <!-- p1.Test2 -->
+    </classes>
+  </test> <!-- My name(failed) -->
+</suite> <!-- Failed suite [My suit] -->

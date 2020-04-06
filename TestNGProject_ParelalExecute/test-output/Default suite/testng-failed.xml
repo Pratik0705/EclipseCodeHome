@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="p1.prtTestNg">
+        <methods>
+          <include name="before_suite"/>
+          <include name="after_suite"/>
+          <include name="after_method"/>
+          <include name="before_class"/>
+          <include name="before_test"/>
+          <include name="after_class"/>
+          <include name="before_method"/>
+          <include name="after_test"/>
+        </methods>
+      </class> <!-- p1.prtTestNg -->
+      <class name="p1.cl2">
+        <methods>
+          <include name="cl2_methos"/>
+        </methods>
+      </class> <!-- p1.cl2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

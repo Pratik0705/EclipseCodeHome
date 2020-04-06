@@ -1,0 +1,18 @@
+<suite name="My suit" parallel="classes"> <!-- THIS IS PARRELEL EXECUTION OF TESTS -->
+	<test name="My name">
+		<!-- <classes> <class name="p1.Test1" /> <methods> <include name = "m2"/> 
+			//execute m2 from test1 <include name = "m3"/> //execute m3 from test1 </methods> 
+			<class name="p1.Test2"> </class> // end here too </classes> -->
+		<packages>
+			<package name="p1" />
+			<classes>
+				<class name="p1.Test1" />
+				<class name="p1.Test2" />
+				<!-- IT WILL EXECUTE ABOVE MENTIONED 2 CLASSES PARALLELY -->
+				<!-- <groups> <run> <include name="Regression" /> <include name="Sanity" 
+					/> </run> </groups> -->
+			</classes>
+		</packages>
+	</test>
+</suite>
+

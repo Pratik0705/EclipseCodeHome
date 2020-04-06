@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <groups>
+      <run>
+        <include name="test1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="p1.cl2">
+        <methods>
+          <include name="cl2_methos"/>
+        </methods>
+      </class> <!-- p1.cl2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
